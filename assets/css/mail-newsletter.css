@@ -1,0 +1,93 @@
+/* Front-End */
+.mailnewsletterform{
+	width:350px;float:right;background:#e6e6e6;border-radius:5px;padding:10px 20px;box-sizing:border-box;font-family:'Montserrat',sans-serif;
+}
+.mailnewsletterform h2{
+	width:100%;margin:10px 0;padding-bottom:10px;color:#78788c;border-bottom:1px solid #bebed2;text-align:center;clear:both;
+}
+.mailnewsletterform .txt input{
+	width:100%;padding:10px 10px 10px 10px;box-sizing:border-box;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:1px solid #bebed2;
+}
+.mailnewsletterform .txt input:focus{
+	border-bottom:1px solid #78788c;
+}
+.mailnewsletterform .btn{
+	width:75px;margin:0 auto;
+}
+.mailnewsletterform .btn input{
+	border-radius:5px;padding:12px 18px;margin-top:10px;font-family:'Montserrat',sans-serif;border:1px solid #bebed2;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s;
+}
+.mailnewsletterform .btn input:hover{
+	background:#78788c;color:#fff;
+}
+
+/* media query */
+@media only screen and (max-width: 480px) {
+    .mailnewsletterform {
+        width:auto;
+    }
+}
+
+
+/* Back-End */
+table#mail-newsletter {
+	width: 80%;
+	margin-top:25px;
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table#mail-newsletter th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table#mail-newsletter td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+#wp-intro-wrap {
+	width:80%;
+	float:left;
+	margin-bottom: 20px;
+}
+
+#sendmailnewsletter {
+	float:right;
+	height: 35px;
+    line-height: 35px;
+    padding: 0 25px 10px;
+    margin: 0px 20px 0px 0px;
+	
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    
+    background: #0085ba none repeat scroll 0 0;
+    color: #fff;
+    box-shadow: 0 1px 0 #006799;
+    border-color: #0073aa #006799 #006799;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+#mnlsubject{
+	width:80%;
+	height:35px;
+	border-radius: 5px;
+}
